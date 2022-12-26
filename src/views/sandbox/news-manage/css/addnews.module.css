@@ -1,0 +1,8 @@
+.active{
+    display: none;
+}
+
+.ant-row{
+    text-align: left;
+    padding-left: 0;
+}

@@ -1,0 +1,39 @@
+.login{
+    background-color: rgb(35, 39, 65);
+    /* background-image: url("../../../public/bg.jpg"); */
+    height: 100vh;
+    width: 100%;
+}
+
+.login h1{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.login .form{
+    width: 500px;
+    height: 300px;
+    /* 位置固定 */
+    position: fixed;
+    /* 半透明 */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 居中 */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 填充 */
+    padding: 20px;
+    /* 圆角 */
+    border-radius: 15px;
+
+}
+
+.login Button{
+    top: 50%;
+    left: 50%;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
